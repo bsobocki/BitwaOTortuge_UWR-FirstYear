@@ -10,9 +10,15 @@ using namespace std;
 //konstruktor
 Menu::Menu(const int w, const int h, const char* src): Window(w,h,src,"Bitwa O Tortuge!")
 {
-   start   = *new Button(250, 200, 200, 70, renderer, "grafika/start2-2.jpg");
-   authors = *new Button(250, 300, 200, 70, renderer, "grafika/autorzy2.jpg");
-   exit    = *new Button(250, 400, 200, 70, renderer, "grafika/wyjscie2-2.jpg");
+   Button* b = new Button(250, 200, 200, 70, renderer, "grafika/start2-2.jpg");
+   start = *b;
+   delete b;
+   b = new Button(250, 300, 200, 70, renderer, "grafika/autorzy2.jpg");
+   authors = *b;
+   delete b;
+   b = new Button(250, 400, 200, 70, renderer, "grafika/wyjscie2-2.jpg");
+   exit  = *b;
+   delete b;
 }
 
 //metody

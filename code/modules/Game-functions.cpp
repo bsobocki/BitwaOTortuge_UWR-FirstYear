@@ -172,23 +172,33 @@ Game::Game(const int w, const int h, const char* src, const bool Player1_fleet):
    current_fleet = Player1_fleet;
 
    //wyswietlanie obrazka aktualnej floty
-   img_fleet = *new Button(248, 15, 50, 50, renderer,"grafika/small-Piraci.jpg");
+   Button* b = new Button(248, 15, 50, 50, renderer,"grafika/small-Piraci.jpg");
+   img_fleet = *b;
+   delete b;
 
-   //tworzymy graczy
-   player1 = *new Player(Player1_fleet, 8, "grafika/P1.png", renderer);
-   player2 = *new Player(!Player1_fleet, 8,"grafika/P2.png", renderer);
+   //tworzymy gracza 1
+   Player* p = new Player(Player1_fleet, 8, "grafika/P1.png", renderer);
+   player1 = *p;
+   delete p;
+   //tworzymy gracza 2
+   p = new Player(!Player1_fleet, 8,"grafika/P2.png", renderer);
+   player2 = *p;
+   delete p;
 
    //losowanie rozmieszczenia
    int* index = randomize();
 
    int score=1; //wartosc punktowa danego okretu
 
+   Ship* s;
    for (int i=0; i<6; i++)
    {
       //ustawiamy wartosc punktowa
       if(i==2 || i==4) score++;
       //tworzenie okretow bez zrodel
-      ship[i] = *new Ship( X[index[i]], Y[index[i]], 79, 82, renderer, "", index[i], "", true, "", "",1, i, score);
+      s = new Ship( X[index[i]], Y[index[i]], 79, 82, renderer, "", index[i], "", true, "", "",1, i, score);
+      ship[i] = *s;
+      delete s;
    }
 
    score=1;
@@ -197,7 +207,9 @@ Game::Game(const int w, const int h, const char* src, const bool Player1_fleet):
       //ustawiamy wartosc punktowa
       if(i==8 || i==10) score++;
       //tworzenie okretow bez zrodel
-      ship[i] = *new Ship( X[index[i]], Y[index[i]], 79, 82, renderer, "", index[i], "", true, "", "",0, i, score);
+      s = new Ship( X[index[i]], Y[index[i]], 79, 82, renderer, "", index[i], "", true, "", "",0, i, score);
+      ship[i] = *s;
+      delete s;
    }
 
    //ustawianie zrodel statkow
@@ -205,10 +217,15 @@ Game::Game(const int w, const int h, const char* src, const bool Player1_fleet):
 
    //przypisywanie polom danych okretow
 
+   Field* f;
    for (int i=0; i<12; i++)
+   {
       //tworzenie pol na planszy
-      field[i] = *new Field(i, X[i], Y[i]);
+      f = new Field(i, X[i], Y[i]);
+      field[i] = *f;
+      delete f;
 
+   }
    for (int i=0; i<12; i++)
    {
       //nadajemy polom widoczne pionki i ustawiamy ukryte jako "zerowe"

@@ -7,8 +7,12 @@
 //konstruktor
 Choose::Choose(const int h, const int w, const char* src): Window(w,h,src,"Wybor Floty Gracza 1!")
 {
-   pirates = *new Button(100, 100, 200, 200, renderer, "grafika/Piraci.jpg");
-   spanish = *new Button(400, 100, 200, 200, renderer, "grafika/Hiszpanie.jpg");
+   Button* b = new Button(100, 100, 200, 200, renderer, "grafika/Piraci.jpg");
+   pirates = *b;
+   delete b;
+   b = new Button(400, 100, 200, 200, renderer, "grafika/Hiszpanie.jpg");
+   spanish = *b;
+   delete b;
 }
 
 //metody
