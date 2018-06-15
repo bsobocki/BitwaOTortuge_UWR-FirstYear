@@ -379,7 +379,7 @@ void Game::action()
          //tworzymy zaznaczenie (zolta obwodke dookola pionka)
          Button* b = new Button(field[selected].outdoor.x_g()-5, field[selected].outdoor.y_g()-5, field[selected].outdoor.height_g()+10, field[selected].outdoor.width_g()+10, renderer, "grafika/stroke.jpg");
          stroke = *b;
-         free(b);
+         delete b;
       }
 
       click = true;
