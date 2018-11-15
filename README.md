@@ -7,7 +7,10 @@ Project for a programming course written in C++.
 3) run "BitwaOTortuge.exe"
 
 All files available in the "BOT" are necessary to run!
+
 ## Rules of the game
+
+### pawn
 Every pawn has:
   - two sides: 
     * front with visible ship,
@@ -18,10 +21,16 @@ Every pawn has:
   - possible directions of movement.
   (Image 1.2)
   
-  <div align="left"><img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" />                                   <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" /></div>
+  <div align="left">
+  <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" />
+  <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" />  
+</div>
   
 Ships with black sails belong to the pirate fleet and with red - to the spain fleet.
-At the beggining of the game every game pawn is randomly set and reversed. 
+
+At the beggining of the game every pawn is randomly set and reversed.
+
+### move
 Every move can be just one of activities:
   - When pawn is reserved:
     * inversion the pawn and setting it in any position,
