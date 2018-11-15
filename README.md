@@ -40,15 +40,29 @@ At the beggining of the game every pawn is randomly set and reversed.
 ### move
 
 Every move can be just one of activities:
-  - When pawn is reserved:
+  1) When pawn is reserved:
     * inversion the pawn and setting it in any position,
-  - When pawn is exposed:
+  2) When pawn is exposed:
     * turn to the left or right by 90 degrees,
     * move the pawn according to the dots on it
     
- Player can move his pawn on:
+ The player can move his pawn on:
   - empty field,
   - field with reversed ship,
   - field with exposed ship of opponent (then the ship is sunk and the player score increase by the ship value)
     
- (this description will be completed soon! :) ...)
+ The player can't move his ship on inverted pawn of his fleet.
+ 
+ The Player 1 starts the game through choosing one pawn and doing activity 1).
+ 
+ ### end
+ 
+ The game ends, when one of the players scores 7 points (values of ships) or doesn't has any possibility to move. 
+
+## Control
+
+The player controls through a keyboard and a mouse:
+  - to choose a pawn has to click on it by left button
+  - to rotate a pawn has to click left or right arrow
+  - to move a pawn has to click buttons on numeric keypad (acording to the direction of the dots on pawn -- Image 1.2)
+  
