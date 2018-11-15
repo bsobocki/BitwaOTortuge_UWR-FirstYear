@@ -14,22 +14,24 @@ All files available in the "BOT" are necessary to run!
 ## Rules of the game
 
 ### pawn
+<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" align="left" />
+  
+  
 Every pawn has:
   - two sides: 
     * front with visible ship,
     * reverse with sea waves,
-    
+   
   (Image 1.1)
+  
+<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="left" />  
+ 
+ 
   - value,
   - color,
   - possible directions of movement.
   
   (Image 1.2)
-  
-  <div align="left">
-  <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" />
-  <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" />  
-</div>
   
 Ships with black sails belong to the pirate fleet and with red - to the spain fleet.
 
