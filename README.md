@@ -13,21 +13,20 @@ All files available in the "BOT" are necessary to run!
 
 ## Rules of the game
 
-### pawn
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" align="right" />
-  
+
+### pawn
   
 Every pawn has:
   - two sides: 
     * front with visible ship,
     * reverse with sea waves,
+  
+<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="right" /> 
    
   (Image 1.1)
 
   - value, 
-  
-<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="right" /> 
-
   - color,
   - possible directions of movement. 
   
