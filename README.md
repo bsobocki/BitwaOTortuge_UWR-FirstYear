@@ -27,4 +27,4 @@ Every move can be just one of activities:
     * turn to the left or right by 90 degrees,
     * move the pawn according to the dots on it
     
-    (this description will be completed soon! :) )
+    (this description will be completed soon! :) ...)
