@@ -18,8 +18,7 @@ Every pawn has:
   - possible directions of movement.
   (Image 1.2)
   
-  <div align="right"><img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" /></div>
-  <div align="right"><img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" /></div>
+  <div align="left"><img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" />                                   <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" /></div>
   
 Ships with black sails belong to the pirate fleet and with red - to the spain fleet.
 At the beggining of the game every game pawn is randomly set and reversed. 
