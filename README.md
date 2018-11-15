@@ -14,7 +14,7 @@ All files available in the "BOT" are necessary to run!
 ## Rules of the game
 
 ### pawn
-<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" align="left" />
+<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" align="right" />
   
   
 Every pawn has:
@@ -24,7 +24,7 @@ Every pawn has:
    
   (Image 1.1)
   
-<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="left" />  
+<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="right" />  
  
  
   - value,
