@@ -23,12 +23,13 @@ Every pawn has:
     * reverse with sea waves,
    
   (Image 1.1)
- 
-  - value,
-  - color,
-  - possible directions of movement.
+
+  - value, 
   
-<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="right" />  
+<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="right" /> 
+
+  - color,
+  - possible directions of movement. 
   
   (Image 1.2)
   
