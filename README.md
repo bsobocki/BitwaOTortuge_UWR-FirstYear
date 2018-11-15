@@ -18,10 +18,12 @@ Every pawn has:
   - two sides: 
     * front with visible ship,
     * reverse with sea waves,
+    
   (Image 1.1)
   - value,
   - color,
   - possible directions of movement.
+  
   (Image 1.2)
   
   <div align="left">
