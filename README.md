@@ -22,7 +22,7 @@ Every pawn has:
     * front with visible ship,
     * reverse with sea waves,
   
-<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="right" /> 
+<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="right" width="250"/> 
    
   (Image 1.1)
 
