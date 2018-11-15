@@ -1,5 +1,5 @@
 # Bitwa O Tortugę
-A computer version of board game "Bitwa O Tortugę".
+A computer version of the board game "Bitwa O Tortugę".
 Project for a programming course written in C++.
 ## How to run 
 1) download repository
