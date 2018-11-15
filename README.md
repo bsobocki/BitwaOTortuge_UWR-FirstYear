@@ -1,3 +1,6 @@
+
+<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/title.jpg" />
+
 # Bitwa O Tortugę
 A computer version of the board game "Bitwa O Tortugę".
 Project for a programming course written in C++.
