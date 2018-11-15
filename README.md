@@ -41,10 +41,10 @@ At the beggining of the game every pawn is randomly set and reversed.
 
 Every move can be just one of activities:
   1) When pawn is reserved:
-    * inversion the pawn and setting it in any position,
+    - inversion the pawn and setting it in any position,
   2) When pawn is exposed:
-    * turn to the left or right by 90 degrees,
-    * move the pawn according to the dots on it
+    - turn to the left or right by 90 degrees,
+    - move the pawn according to the dots on it
     
  The player can move his pawn on:
   - empty field,
