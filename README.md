@@ -2,7 +2,8 @@
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/title.jpg" />
 
 # Bitwa O Tortugę
-A computer version of the board game "Bitwa O Tortugę".
+A computer version of the board game "Bitwa O Tortugę" by Madoka Kitao and Hiroki Kaneko.
+
 Project for a programming course written in C++.
 ## How to run 
 1) download repository
@@ -37,11 +38,17 @@ Ships with black sails belong to the pirate fleet and with red - to the spain fl
 At the beggining of the game every pawn is randomly set and reversed.
 
 ### move
+
 Every move can be just one of activities:
   - When pawn is reserved:
     * inversion the pawn and setting it in any position,
-  - If pawn is exposed:
+  - When pawn is exposed:
     * turn to the left or right by 90 degrees,
     * move the pawn according to the dots on it
     
-    (this description will be completed soon! :) ...)
+ Player can move his pawn on:
+  - empty field,
+  - field with reversed ship,
+  - field with exposed ship of opponent (then the ship is sunk and the player score increase by the ship value)
+    
+ (this description will be completed soon! :) ...)
