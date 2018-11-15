@@ -13,7 +13,7 @@ All files available in the "BOT" are necessary to run!
 
 ## Rules of the game
 
-<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" align="right" />
+<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" align="right" width="250"/>
 
 ### pawn
   
