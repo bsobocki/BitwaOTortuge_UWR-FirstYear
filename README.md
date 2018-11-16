@@ -66,3 +66,13 @@ The player controls through a keyboard and a mouse:
   - to rotate a pawn has to click left or right arrow
   - to move a pawn has to click buttons on numeric keypad (acording to the direction of the dots on pawn -- Image 1.2)
   
+## Important informations
+The author of the code is me, Bartosz Sobocki, but I'm not an author of the graphics and the game and its rules.
+
+The author of the illustrations: Maciej Szymanowicz
+
+The game authors: Madoka Kitao, Hiroki Kaneko
+
+The author of the instruction used to make this descrioption of the game: Przemysław Karkosa
+
+Graphic and DTP development of this game: Cezary Szulc
