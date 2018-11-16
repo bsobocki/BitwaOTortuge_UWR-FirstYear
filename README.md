@@ -67,7 +67,7 @@ The player controls through a keyboard and a mouse:
   - to move a pawn has to click buttons on numeric keypad (acording to the direction of the dots on pawn -- Image 1.2)
   
 ## Important informations
-The author of the code is me, Bartosz Sobocki, but I'm not an author of the graphics and the game and its rules.
+The author of the code is me, Bartosz Sobocki, but I'm not the author of the graphics, the game and its rules.
 
 The author of the illustrations: Maciej Szymanowicz
 
