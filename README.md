@@ -78,4 +78,4 @@ The game authors: Madoka Kitao, Hiroki Kaneko
 
 The author of the instruction used to make this descrioption of the game: Przemysław Karkosa
 
-Graphic and DTP development of this game: Cezary Szulc
+Graphic and DTP development of this game: Cezary Szulc.
