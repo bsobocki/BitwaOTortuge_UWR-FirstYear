@@ -60,11 +60,14 @@ Every move can be just one of activities:
  The game ends, when one of the players scores 7 points (values of ships) or doesn't has any possibility to move. 
 
 ## Control
+<img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/directions.jpg" align="right" />
 
 The player controls through a keyboard and a mouse:
   - to choose a pawn has to click on it by left button
   - to rotate a pawn has to click left or right arrow
-  - to move a pawn has to click buttons on numeric keypad (acording to the direction of the dots on pawn -- Image 1.2)
+  - to move a pawn has to click buttons on numeric keypad 
+  
+  (acording to the direction of the dots on pawn -- Image 1.3)
   
 ## Important informations
 The author of the code is me, Bartosz Sobocki, but I'm not the author of the graphics, the game and its rules.
