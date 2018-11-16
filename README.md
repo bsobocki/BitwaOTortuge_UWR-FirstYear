@@ -16,9 +16,9 @@ All files available in the "BOT" are necessary to run!
 
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" align="right" width="250"/>
 
-### pawn
+### ship card
   
-Every pawn has:
+Every ship card has:
   - two sides: 
     * front with visible ship,
     * reverse with sea waves,
@@ -35,25 +35,25 @@ Every pawn has:
   
 Ships with black sails belong to the pirate fleet and with red - to the spain fleet.
 
-At the beggining of the game every pawn is randomly set and reversed.
+At the beggining of the game every card is randomly set and reversed.
 
 ### move
 
 Every move can be just one of activities:
-  - When pawn is reserved:
-    * inversion the pawn and setting it in any position (1),
-  - When pawn is exposed:
+  - When card is reserved:
+    * inversion the card and setting it in any position (1),
+  - When card is exposed:
     * turn to the left or right by 90 degrees,
-    * move the pawn according to the dots on it
+    * move the card according to the dots on it
     
- The player can move his pawn on:
+ The player can move his card on:
   - empty field,
   - field with reversed ship,
   - field with exposed ship of opponent (then the ship is sunk and the player score increase by the ship value)
     
- The player can't move his ship on inverted pawn of his fleet.
+ The player can't move his ship on inverted card of his fleet.
  
- The Player 1 starts the game through choosing one pawn and doing activity (1).
+ The Player 1 starts the game through choosing one card and doing activity (1).
  
  ### end
  
@@ -63,11 +63,11 @@ Every move can be just one of activities:
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/directions.jpg" align="right" />
 
 The player controls through a keyboard and a mouse:
-  - to choose a pawn has to click on it by left button
-  - to rotate a pawn has to click left or right arrow
-  - to move a pawn has to click buttons on numeric keypad 
+  - to choose a card has to click on it by left button
+  - to rotate a card has to click left or right arrow
+  - to move a card has to click buttons on numeric keypad 
   
-  (acording to the direction of the dots on pawn -- Image 1.3)
+  (acording to the direction of the dots on card -- Image 1.3)
   
 ## Important informations
 The author of the code is me, Bartosz Sobocki, but I'm not the author of the graphics, the game and its rules.
