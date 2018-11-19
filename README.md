@@ -17,7 +17,6 @@ All files available in the "BOT" are necessary to run!
 ### goal of the game
 
 The player must get 7 points which can get by sinking ships of his opponent. 
-
 The ship is sunk when enemy fleet moves onto it.
 
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" align="right" width="250"/>
