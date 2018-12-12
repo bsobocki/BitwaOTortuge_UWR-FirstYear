@@ -30,7 +30,6 @@ Every ship card has:
     * reverse with sea waves,
   
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="right" width="250"/> 
-   
   - value, 
   - color,
   - possible directions of movement.
