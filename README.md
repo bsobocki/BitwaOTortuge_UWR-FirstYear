@@ -31,13 +31,9 @@ Every ship card has:
   
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/spanish.jpg" align="right" width="250"/> 
    
-  (Image 1.1)
-
   - value, 
   - color,
-  - possible directions of movement. 
-  
-  (Image 1.2)
+  - possible directions of movement.
   
 Ships with black sails belong to the pirate fleet and with red - to the spain fleet.
 
