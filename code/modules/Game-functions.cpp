@@ -3,15 +3,11 @@
 #include <random>
 #include <string.h>
 
-
-
-//-------Player-------
-
+//PLAYER
 
 //konstruktor
 Game::Player::Player():
    score(0), fleet(true), num_of_ships(0), s(nullptr), t(nullptr), sscr(nullptr), tscr(nullptr){}
-
 Game::Player::Player(const bool f, const int num, const char* src, SDL_Renderer* ren):
    score(0), fleet(f), num_of_ships(num), sscr(nullptr), tscr(nullptr)
 {
@@ -32,11 +28,7 @@ Game::Player & Game::Player::operator=(const Game::Player& p)
    return *this;
 }
 
-
-
-
-//-------Field-------
-
+//FIELD
 
 //konstruktor
 Game::Field::Field(): x(0), y(0), number(0){}
@@ -64,15 +56,10 @@ void Game::Field::close()
    hidden.close();
 }
 
-
-
-
-//-------Ship-------
-
+//SHIP
 
 //konstruktory
 Game::Ship::Ship(): Game::Button(), field_num(0), bckgrd_src_l("no_image"), bckgrd_src_d("no_image"), rev(true), rev_src_l("no_image"), rev_src_d("no_image"), rot(0), show(false),fleet(-1), index(0), zero(true), able_to_move(false), score(0){}
-
 Game::Ship::Ship(const int x, const int y, const int w, const int h, SDL_Renderer* r, char* src, const int numfield, char* dark_bckgrd, const bool _rev, char* rev_srcL, char* rev_srcD,const int fl, const int ind, const int scr)
    : Game::Button(x, y, w, h, r, rev_srcD), field_num(numfield), bckgrd_src_l(src), bckgrd_src_d(dark_bckgrd), rev(_rev), rev_src_l(rev_srcL), rev_src_d(rev_srcD), rot(0), show(true), fleet(fl), index(ind), zero(false), able_to_move(!_rev), score(scr)
       {}
@@ -131,10 +118,7 @@ void Game::Ship::close()
    delete rev_src_l;
 }
 
-
-
-//-------Game-------
-
+//GAME
 
 int Game::selected;
 
@@ -291,7 +275,6 @@ bool Game::winner()
    return false;
 }
 
-
 //metody
 bool Game::show()
 {
@@ -333,7 +316,6 @@ bool Game::show()
          {
             if (ship[i].show)
             {
-
                SDL_Rect r = {field[i].outdoor.x_g(), field[i].outdoor.y_g(), field[i].outdoor.height_g(), field[i].outdoor.width_g()};
 
                //ustawiamy przerzut obrazu
@@ -356,7 +338,6 @@ bool Game::show()
       }
    }
 }
-
 
 //wykonywanie akcji na obiektach
 void Game::action()
@@ -545,7 +526,6 @@ void Game::action()
       click = false;
 }
 
-
 //zamykanie okna i niszczenie go
 void Game::close()
 {
@@ -573,7 +553,6 @@ void Game::close()
    SDL_DestroyTexture(player2.tscr);
    SDL_FreeSurface(player2.sscr);
 }
-
 
 //funkcja zwraca tablice z niepowtarzajacymi sie losowymi liczbami
 //potrzebna do losowego poczatkowego rozmieszczenia okretow
@@ -638,7 +617,6 @@ void Game::change(Game::Ship & b, const int i, const int x, const int y)
             click = false;
          }
       }
-
       if(b.rev)
          b.set_bckgrd(b.rev_src_d);
       else
@@ -652,7 +630,6 @@ void Game::change(Game::Ship & b, const int i, const int x, const int y)
          b.set_bckgrd(b.bckgrd_src_l);
    }
 }
-
 
 //poruszanie sie okretow
 bool Game::move_up(Game::Field& f)
@@ -1008,7 +985,6 @@ bool Game::move_down_right(Game::Field& f)
    return true;
 }
 
-
 //wplyniecie statku z pola f na pole s
 void Game::attack(Game::Field& f, Game::Field& s)
 {
@@ -1031,7 +1007,7 @@ void Game::attack(Game::Field& f, Game::Field& s)
    //gdy jest odkryty okret
    else
    {
-      //dodajemy do punktów
+      //dodajemy do punktÃ³w
       if ((int)current_fleet == player1.fleet)
          player1.score += s.outdoor.score;
       else
@@ -1041,7 +1017,7 @@ void Game::attack(Game::Field& f, Game::Field& s)
       f.outdoor.field_num = s.number;
       s.changeOutdoor(f.outdoor);
    }
-
+   
    //po przeniesieniu z pola f na gore wchodzi okret ukryty, a na dole jest zerowy
    f.changeOutdoor(f.hidden);
    f.changeHidden(zero_ship);
@@ -1082,7 +1058,6 @@ void Game::show_scores(SDL_Rect& r, Game::Player& p)
    p.tscr  = SDL_CreateTextureFromSurface(renderer, p.sscr);
    SDL_RenderCopy(renderer, p.tscr, nullptr, &r);
 }
-
 
 //ustawianie zrodel statkow
 void Game::sources()
@@ -1147,5 +1122,3 @@ void Game::sources()
    ship[11].rev_src_l = "grafika/rewers.jpg";
    ship[11].rev_src_d = "grafika/rewers2.jpg";
 }
-
-
