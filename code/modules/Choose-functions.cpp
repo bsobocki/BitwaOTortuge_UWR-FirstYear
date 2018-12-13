@@ -1,8 +1,6 @@
 #include "Choose.hpp"
 
-
-
-//-------Choose-------
+//CHOOSE
 
 //konstruktor
 Choose::Choose(const int h, const int w, const char* src): Window(w,h,src,"Wybor Floty Gracza 1!")
@@ -51,7 +49,6 @@ bool Choose::show()
          SDL_RenderCopy(renderer, pirates.text, nullptr, &pirates.rect);
          SDL_RenderCopy(renderer, spanish.text, nullptr, &spanish.rect);
          SDL_RenderPresent(renderer);
-
 
          //po kliknieciu myszki
          if (event.type == SDL_MOUSEBUTTONDOWN)
