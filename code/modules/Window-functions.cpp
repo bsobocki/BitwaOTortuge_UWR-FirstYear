@@ -2,9 +2,7 @@
 
 using namespace std;
 
-
-//-------Inicjalizacja-------
-
+//INICJALIZACJA
 
 void init()
 {
@@ -12,9 +10,7 @@ void init()
    IMG_Init(IMG_INIT_JPG);
 }
 
-
-
-//-------Window-------
+//WINDOW
 
 //konstruktor
 Window::Window(const int w, const int h, const char* s, const char* title): width(w), height(h), bckgrd_src(s)
@@ -27,9 +23,7 @@ Window::Window(const int w, const int h, const char* s, const char* title): widt
    texture = SDL_CreateTextureFromSurface(renderer, surface);
 }
 
-
-//-------Button-------
-
+//BUTTTON
 
 //konstruktory
 Window::Button::Button(): width(0), height(0), x(0), y(0)
@@ -86,5 +80,3 @@ void Window::Button::close()
    SDL_DestroyTexture(text);
    SDL_FreeSurface(surf);
 }
-
-
