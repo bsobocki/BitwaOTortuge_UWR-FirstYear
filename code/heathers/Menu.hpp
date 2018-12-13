@@ -4,7 +4,6 @@
 
 using namespace std;
 
-
 class Menu :public Window
 {
 private:
