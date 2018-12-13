@@ -7,7 +7,7 @@
 //klasa abstrakcyjna zwierajaca niezbedne elementy do utworzenia okna
 class Window
 {
-//klasa przycisków
+//klasa przyciskÃ³w
 protected:
    class Button
    {
@@ -47,12 +47,10 @@ protected:
          void x_s(const int xx);
          void y_s(const int yy);
 
-
          //usuniecie przycisku
          void close();
    };
-
-
+   
 public:
    //komponenty niezbedne do utworzenia danego okna i jego zawartosci
    SDL_Window    *window;
