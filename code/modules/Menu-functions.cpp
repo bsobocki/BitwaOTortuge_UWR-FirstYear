@@ -1,11 +1,8 @@
 #include "Menu.hpp"
 
-
 using namespace std;
 
-
-//-------Menu-------
-
+//MENU
 
 //konstruktor
 Menu::Menu(const int w, const int h, const char* src): Window(w,h,src,"Bitwa O Tortuge!")
@@ -83,7 +80,6 @@ bool Menu::show()
          SDL_RenderCopy(renderer, authors.text, nullptr, &authors.rect);
          SDL_RenderCopy(renderer, exit.text, nullptr, &exit.rect);
          SDL_RenderPresent(renderer);
-
 
          //po kliknieciu myszki
          if (event.type == SDL_MOUSEBUTTONDOWN)
