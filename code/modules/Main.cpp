@@ -7,7 +7,7 @@ int main(int argv, char** args)
    //inicjalizacja SDL
    init();
 
-   //zmienna przechowuje informacje o stanie przejscie (wyjscie z programu lub przejscie do gry)
+   //zmienna przechowuje informacje o stanie przejscia (wyjscie z programu lub przejscie do gry)
    //oraz flote gracza 1
    bool boo = true;
 
@@ -39,7 +39,7 @@ int main(int argv, char** args)
          boo = false;
    }
 
-   //cout<<endl<<"Dziekuje za skorzystanie z programy \" Bitwa o Tortuge\" "<<endl;
+   //cout<<endl<<"Dziekuje za skorzystanie z programu \" Bitwa o Tortuge\" "<<endl;
    SDL_Quit();
    return 0;
 }
