@@ -19,5 +19,4 @@ public:
    void close();
 };
 
-
 #endif // CHOOSE_HPP_INCLUDED
