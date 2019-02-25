@@ -139,5 +139,4 @@ public:
    void players_scores();
 };
 
-
 #endif // GAME_HPP_INCLUDED
