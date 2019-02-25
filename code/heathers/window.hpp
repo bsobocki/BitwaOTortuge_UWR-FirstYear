@@ -79,5 +79,4 @@ public:
 
 void init();
 
-
 #endif // WINDOW_HPP_INCLUDED
