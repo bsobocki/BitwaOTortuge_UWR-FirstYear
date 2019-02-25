@@ -22,5 +22,4 @@ public:
    void close();
 };
 
-
 #endif // MENU_HPP_INCLUDED
