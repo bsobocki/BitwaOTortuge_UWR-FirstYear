@@ -1,5 +1,5 @@
-#ifndef WYBOR_HPP_INCLUDED
-#define WYBOR_HPP_INCLUDED
+#ifndef CHOOSE_HPP_INCLUDED
+#define CHOOSE_HPP_INCLUDED
 #include "Menu.hpp"
 
 class Choose : public Window
@@ -20,4 +20,4 @@ public:
 };
 
 
-#endif // WYBOR_HPP_INCLUDED
+#endif // CHOOSE_HPP_INCLUDED
