@@ -226,7 +226,7 @@ Game::Game(const int w, const int h, const char* src, const bool Player1_fleet):
 
 bool Game::winner()
 {
-   //gy jeden z graczy zdobedzie 6 pkt to rozgrywka jest zakonczona
+   //gdy jeden z graczy zdobedzie 6 pkt to rozgrywka jest zakonczona
    if(player1.score>=6 || player2.score>=6)
    {
       SDL_Surface* s;
