@@ -92,7 +92,7 @@ public:
    Player player1;
    Player player2;
 private:
-   Ship   zero_ship;          //"zerowy statek" sluzacy do usuwania istniejacych zbitych statkow (poprzez napisanie tym statkiem)
+   Ship   zero_ship;          //"zerowy statek" sluzacy do usuwania istniejacych zbitych statkow (poprzez nadpisanie tym statkiem)
    Button zero_stroke;        //"zerowe zaznaczenie" sluzace do usuwania zaznaczenia
    Button img_fleet;          //obrazek floty aktualnie wyswietlanej
    Ship   ship[12];           //osiem pionkow statkow bedacych reprezentowanymi poprzez klase Button
