@@ -5,15 +5,15 @@
 class Choose : public Window
 {
 private:
-   //przyciski
+   // buttons
    Button pirates;
    Button spanish;
 
 public:
-   //konstruktor
+   // constructor
    Choose(const int h, const int w, const char* src);
 
-   //metody
+   // methods
    bool show();
    void change_buttons(const int x, const int y );
    void close();
