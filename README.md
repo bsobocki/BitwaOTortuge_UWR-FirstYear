@@ -8,8 +8,8 @@ A computer version of the board game "Bitwa O Tortugę" by Madoka Kitao and Hiro
 # Table of Contents
   - [How To Run](#how-to-run)
   - [Rules Of The Game](#rules-of-the-game)
-    - [Goal Of The Game](#goal-of-the-game)
-    - [Ship Card](#ship-card)
+    - [The Goal Of The Game](#the-goal-of-the-game)
+    - [A Ship Card](#a-ship-card)
     - [Move](#move)
     - [End](#end)
   - [Control](#control)
@@ -25,7 +25,7 @@ All files available in the "BOT" are necessary to run!
 
 ## Rules of the game
 
-### goal of the game
+### The Goal Of The Game
 
 The player must get 7 points which can get by sinking ships of his opponent.
 
@@ -33,7 +33,7 @@ The ship is sunk when enemy fleet moves onto it.
 
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/pirate.jpg" align="right" width="250"/>
 
-### ship card
+### A Ship Card
   
 Every ship card has:
   - two sides: 
@@ -49,7 +49,7 @@ Ships with black sails belong to the pirate fleet and with red - to the spain fl
 
 At the beggining of the game every card is randomly set and reversed.
 
-### move
+### Move
 
 Every move can be just one of activities:
   - When card is reserved:
@@ -67,7 +67,7 @@ Every move can be just one of activities:
  
  The Player 1 starts the game through choosing one card and doing activity (1).
  
- ### end
+ ### End
  
  The game ends, when one of the players scores 7 points (values of ships) or doesn't has any possibility to move. 
 
@@ -81,7 +81,7 @@ The player controls through a keyboard and a mouse:
   
   (acording to the direction of the dots on card -- Image 1.3)
   
-## Important informations
+## Important Informations
 The author of the code is me, Bartosz Sobocki, but I'm not the author of the graphics, the game and its rules.
 
 The author of the illustrations: Maciej Szymanowicz
