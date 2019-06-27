@@ -71,6 +71,9 @@ Every move can be just one of activities:
  
  The game ends, when one of the players scores 7 points (values of ships) or doesn't has any possibility to move. 
 
+### The Board In The Beginning Of The Game
+![](https://github.com/bsobocki/BitwaOTortuge/blob/master/images/screeshot_GAME.png)   
+
 ## Control
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/directions.jpg" align="right" />
 
@@ -80,6 +83,13 @@ The player controls through a keyboard and a mouse:
   - to move a card has to click buttons on numeric keypad 
   
   (acording to the direction of the dots on card -- Image 1.3)
+  
+  .  
+  .  
+  .  
+  **_The Chosen Ship:_**  
+  .  
+  ![](https://github.com/bsobocki/BitwaOTortuge/blob/master/images/screenshot_CHOSEN_SHIP.png)
   
 ## Important Informations
 The author of the code is me, Bartosz Sobocki, but I'm not the author of the graphics, the game and its rules.
