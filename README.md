@@ -7,11 +7,14 @@ A computer version of the board game "Bitwa O Tortugę" by Madoka Kitao and Hiro
 ---  
 # Table of Contents
   - [How To Run](#how-to-run)
+  - [Start Of The Game](#start-of-the-game)
+  - [Choose Your Fleet](#choose-your-fleet)
   - [Rules Of The Game](#rules-of-the-game)
     - [The Goal Of The Game](#the-goal-of-the-game)
     - [A Ship Card](#a-ship-card)
     - [Move](#move)
     - [End](#end)
+    - [The Board In The Beginning Of The Game](#the-board-in-the-beggining-of-the-game)
   - [Control](#control)
   - [Important Informations](#important-informations)
 ---  
@@ -23,7 +26,7 @@ Project for a programming course written in C++.
 
 All files available in the "BOT" are necessary to run!
 
-## Game Start!
+## Start Of The Game
 _After run "BitwaOTortuge.exe" you will see MENU:_  
 ![](https://github.com/bsobocki/BitwaOTortuge/blob/master/images/screenshot_MENU.png)  
 .  
@@ -80,7 +83,7 @@ Every move can be just one of activities:
  
  The Player 1 starts the game through choosing one card and doing activity (1).
  
- ### End
+### End
  
  The game ends, when one of the players scores 7 points (values of ships) or doesn't has any possibility to move. 
 
