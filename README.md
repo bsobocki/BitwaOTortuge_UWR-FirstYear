@@ -2,8 +2,18 @@
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/title.jpg" />
 
 # Bitwa O Tortugę
-A computer version of the board game "Bitwa O Tortugę" by Madoka Kitao and Hiroki Kaneko.
-
+A computer version of the board game "Bitwa O Tortugę" by Madoka Kitao and Hiroki Kaneko.  
+---  
+Table of Contents
+  - [How To Run](#how-to-run)
+  - [Rules Of The Game](#rules-of-the-game)
+    - [Goal Of The Game](#goal-of-the-game)
+    - [Ship Card](#ship-card)
+    - [Move](#move)
+    - [End](#end)
+  - [Control](#control)
+  - [Important Informations](#important-informations)
+---  
 Project for a programming course written in C++.
 ## How to run 
 1) download repository
