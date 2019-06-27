@@ -80,8 +80,9 @@ Every move can be just one of activities:
 The player controls through a keyboard and a mouse:
   - to choose a card has to click on it by left button
   - to rotate a card has to click left or right arrow
-  - to move a card has to click buttons on numeric keypad 
-  
+  - to move a card has to click buttons on numeric keypad  
+  .  
+  .  
   (acording to the direction of the dots on card -- Image 1.3)
   
   .  
