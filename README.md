@@ -14,7 +14,7 @@ A computer version of the board game "Bitwa O Tortugę" by Madoka Kitao and Hiro
     - [A Ship Card](#a-ship-card)
     - [Move](#move)
     - [End](#end)
-    - [The Board In The Beginning Of The Game](#the-board-in-the-beggining-of-the-game)
+    - [The Board In The Beginning Of The Game](#the-board-in-the-beginning-of-the-game)
   - [Control](#control)
   - [Important Informations](#important-informations)
 ---  
