@@ -23,6 +23,19 @@ Project for a programming course written in C++.
 
 All files available in the "BOT" are necessary to run!
 
+## Game Start!
+_After run "BitwaOTortuge.exe" you will see MENU:_  
+![](https://github.com/bsobocki/BitwaOTortuge/blob/master/images/screenshot_MENU.png)  
+.  
+_To Run The Game Click START!_
+
+## Choose Your Fleet
+_The next step of the game is choosing a fleet - Spanish or Pirates_:  
+![](https://github.com/bsobocki/BitwaOTortuge/blob/master/images/screenshot_CHOOSE_FLEET.png)  
+.  
+_Choose your fleet and start the Game!_
+Your opponent will have the opposite fleet.  
+
 ## Rules of the game
 
 ### The Goal Of The Game
