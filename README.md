@@ -8,13 +8,13 @@ A computer version of the board game "Bitwa O Tortugę" by Madoka Kitao and Hiro
 # Table of Contents
   - [How To Run](#how-to-run)
   - [Start Of The Game](#start-of-the-game)
-  - [Choose Your Fleet](#choose-your-fleet)
-  - [Rules Of The Game](#rules-of-the-game)
+  - [Choose Your Fleet](#choose-your-fleet)  
+  - [The Board In The Beginning Of The Game](#the-board-in-the-beginning-of-the-game)  
+  - [Rules Of The Game](#rules-of-the-game)  
     - [The Goal Of The Game](#the-goal-of-the-game)
     - [A Ship Card](#a-ship-card)
     - [Move](#move)
     - [End](#end)
-    - [The Board In The Beginning Of The Game](#the-board-in-the-beginning-of-the-game)
   - [Control](#control)
   - [Important Informations](#important-informations)
 ---  
@@ -38,6 +38,12 @@ _The next step of the game is choosing a fleet - Spanish or Pirates_:
 .  
 _Choose your fleet and start the Game!_
 Your opponent will have the opposite fleet.  
+
+
+### The Board In The Beginning Of The Game  
+  
+![](https://github.com/bsobocki/BitwaOTortuge/blob/master/images/screeshot_GAME.png)    
+
 
 ## Rules of the game
 
@@ -85,10 +91,7 @@ Every move can be just one of activities:
  
 ### End
  
- The game ends, when one of the players scores 7 points (values of ships) or doesn't has any possibility to move. 
-
-### The Board In The Beginning Of The Game
-![](https://github.com/bsobocki/BitwaOTortuge/blob/master/images/screeshot_GAME.png)   
+ The game ends, when one of the players scores 7 points (values of ships) or doesn't has any possibility to move.  
 
 ## Control
 <img src="https://github.com/bsobocki/BitwaOTortuge/blob/master/images/directions.jpg" align="right" />
