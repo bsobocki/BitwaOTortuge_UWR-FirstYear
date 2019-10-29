@@ -19,7 +19,7 @@ A computer version of the board game "Bitwa O Tortugę" by Madoka Kitao and Hiro
   - [Important Informations](#important-informations)
 ---  
 Project for a programming course written in C++.
-## How to run 
+## How to run (Windows)
 1) download repository
 2) open the "BOT" folder
 3) run "BitwaOTortuge.exe"
